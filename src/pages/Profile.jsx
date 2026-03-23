@@ -4,8 +4,8 @@ function Profile() {
   const { username } = useParams();
 
   const users = [
-    { username: "john_doe", name: "John Doe", email: "john@gmail.com" },
-    { username: "jane123", name: "Jane Smith", email: "jane@gmail.com" },
+    { username: "Mark_Joseph", name: "Mark Joseph", email: "mark@gmail.com" },
+    { username: "Warren_Gray", name: "Warren Gray", email: "warren@gmail.com" },
   ];
 
   const user = users.find((u) => u.username === username);
